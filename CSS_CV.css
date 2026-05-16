@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY*/
+body {
+    background: linear-gradient(to bottom,
+            darkseagreen);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ESPACIADO*/
+.grid-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* HEADER*/
+.top-bar {
+    background: darkkhaki;
+    padding: 15px;
+}
+
+.top-bar ul {
+    background: darkkhaki;
+    padding: 15px;
+}
+
+.top-bar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top-bar li a {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: backgroud 0.3s ease;
+}
+
+.top-bar strong {
+    color: #081018;
+    font-size: 1.2rem;
+}
+
+.top-bar a {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.top-bar a:hover {
+    background-color: white;
+    color: darkgreen;
+}
+
+/* PRINCIPAL*/
+.principal {
+    padding: 70px 0;
+}
+
+.principal h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: brown;
+    line-height: 1;
+}
+
+.principal p {
+    color: black;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* FOTO PERFIL*/
+.perfil-img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid darkgreen;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.perfil-img:hover {
+    transform: scale(1.05);
+}
+
+/* TITULOS*/
+h2 {
+    color: darkgreen;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* CALLOUT*/
+.callout {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* TARJETAS*/
+.card {
+    margin-top: 20px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    background: darkseagreen;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-section h4 {
+    color: black;
+}
+
+.card-section p {
+    color: black;
+}
+
+/* SKILLS*/
+.skill-box {
+    background: cadetblue;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.skill-box:hover {
+    background: #ccccff;
+    color: #0033cc;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* PROGRESS*/
+progress {
+    width: 100%;
+    height: 25px;
+    margin-top: 15px;
+}
+
+/* FORMULARIO*/
+label {
+    color: black;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    background: white !important;
+    border: none !important;
+    color: black !important;
+    border-radius: 10px !important;
+    margin-top: 8px;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 10px darkkhaki !important;
+}
+
+/* BOTONES*/
+
+.button {
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+/* FOOTER*/
+.pie {
+    margin-top: 40px;
+    padding: 25px;
+    background: #081018;
+    color: white;
+    border-top: 2px solid #29b6ff;
+}
+
+.pie h4 {
+    color: #29b6ff;
+}
