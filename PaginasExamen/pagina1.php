@@ -5,200 +5,393 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FUNERARIA SAN PEDRO HUACHO</title>
     <!--Foundation-->
-    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">   
     <link href="pagina1.css" rel="stylesheet"/>
 </head>
 <body>
     <header class="top-bar">
         <div class="top-bar-left">
-            <strong><i>953010889 | 2391206 | lcorimanya_o@hotmail.com</i></strong>
+        <strong>
+            <i>LLAMENOS 954-715-090 | 954-715-091</i>
+            <a href="https://www.facebook.com/AgenciaDeFuneralesSanPedro" class="fb-icon" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                
+            </a>
+        </strong>
         </div>
         <div class="top-bar-right">
             <ul class="dropdown menu" data-dropdown-menu>
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#estudios">Estudios</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#intereses">Intereses</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#somos">¿Que es San Pedro?</a></li>
+                <li><a href="#propuesta">Propuestas</a></li>
+                <li><a href="#segmento">Segmentos</a></li>
+                <li><a href="#canal">Canales</a></li>
+                <li><a href="#relaciones">Relaciones</a></li>
+                <li><a href="#fuentes">Fuentes</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#asociaciones">Asociaciones</a></li>
             </ul>
         </div>
     </header>
     <div class="grid-container principal">
         <div class="grid-x grid-margin-x align-middle">
-            <div class="cell small-12 medium-7">
-                <h1>Luis Andre Corimanya Osorio</h1>
-                <p>
-                    Estudiante de la carrera profesional Ingenieria Informatica
-                </p>
-            </div>
             <div class="cell small-12 medium-5 text-center">
-                <img src="0333212008.jpg" class="perfil-img"/>
+                <img src="FSP.jpg" class="somos-img"/>
+            </div>
+            <div class="cell small-12 medium-7">
+                <h1>Funeraria "SAN PEDRO"</h1>
+                <p>MODELO DE NEGOCIO</p>
             </div>
         </div>
     </div>
     <div class="grid-container">
-        <section id="perfil" class="callout perfil">
-            <h2 class="text-center">Perfil</h2>
+        <section id="somos" class="callout somos">
+            <h2 class="text-center">¿A quienes atendemos?</h2>
             <p class="text center">
-                    Soy un estudiante de la carrera profesional Ingenieria Informatica y
-                    tambien cargador funebre de la Funeraria San Pedro de Huacho(la mejor),
-                    hago mantenimiento de fontaneria(en mi casa), electricista(en casa),
-                    conexion de redes. En estudios tengo certificado UNI de Fundamentos en PHP,
-                    Analisis de Datos con Excel, Fundamentos de JavaScript y SQL Server.
-                    Soy una persona que le gusta trabajar en equipo(que todos aporten), aprender
-                    de otros, formado en valores.
+                    En Funeraria San Pedro de Huacho somos una familia al servicio de las familias. Desde nuestros inicios, hemos acompañado con respeto, sensibilidad y profesionalismo a quienes atraviesan los momentos más difíciles, brindando un apoyo cálido y humano cuando más se necesita.
+            </p>
+            <h2 class="text-center">Nuestro Compromiso</h2>
+            <p class="text center">
+                Nuestro compromiso es ofrecer un servicio integral, digno y transparente, cuidando cada detalle para honrar la memoria de sus seres queridos. Contamos con un equipo de profesionales capacitados y dispuestos a orientar, escuchar y atender cada necesidad con empatía y dedicación.
             </p>
         </section>
-
-        <section id="estudios">
-            <h2 class="text-center">Estudios Realizados</h2>
+        <section id="propuesta" class="callout propuesta">
+            <h2 class="text-center">Propuesta de Valor</h2>
             <div class="grid-x grid-margin-x align-stretch">
-                <!-- PRIMARIA -->
-                <div class="cell small-12 medium-4">
+                <div class="cell small-12 medium-6">
                     <div class="card">
-                        <img src="imgPrimaria.png">
+                        <img src="Innovacion.jpeg">
                         <div class="card-section">
-                            <h4>Primaria</h4>
-                            <p>Maria Auxiliadora</p>
+                            <h4>Innovación y esencia del servicio</h4>
+                            <ul>
+                                <li>Servicio funerario digital para quienes viven fuera del país.</li>
+                                <li>Contratación 100% en línea: velorio, sepelio, cremación o traslado.</li>
+                                <li>Atención humana y empática, disponible las 24 horas.</li>
+                                <li>Seguridad y transparencia en cada trámite.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- SECUNDARIA -->
-                <div class="cell small-12 medium-4">
+                <div class="cell small-12 medium-6">
                     <div class="card">
-                        <img src="imgSecundaria.png">
+                        <img src="Diferencia.jpeg">
                         <div class="card-section">
-                            <h4>Secundaria</h4>
-                            <p>San Ignacio de Loyola</p>
+                            <h4>Servicios diferenciales y sello distintivo</h4>
+                            <ul>
+                                <li>Organización integral: cuerpo, trámites y ceremonia.</li>
+                                <li>Transmisión en vivo de velorios y misas.</li>
+                                <li>Catering y ambientación personalizada (flores, música, homenajes).</li>
+                                <li>Gestión de nichos y documentos sin complicaciones.</li>
+                                <li>Paquetes flexibles según presupuesto y creencias.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-            <!-- UNIVERSIDAD -->
-                <div class="cell small-12 medium-4">
-                    <div class="card">
-                        <img src="imgSuperior.jpg">
-                        <div class="card-section">
-                            <h4>Universidad</h4>
-                            <p>Universidad Nacional José Faustino Sánchez Carrión</p>
-                        </div>
-                    </div>
-                </div>  
             </div>
         </section>
-        <section id="conocimientos" class="callout">
-            <h2 class="text-center">Conocimientos</h2>
-            <div class="grid-x grid-margin-x small-up-2 medium-up-5">
+        <section id="segmento" class="callout segmento">
+            <h2 class="text-center">Segmento del Mercado</h2>
+            <h4 class="text-center"><i>Segmento de Clientes(Entorno Digital)</i></h4>
+            <div class="grid-x grid-margin-x small-up-2 medium-up-4">
                 <div class="cell">
-                    <div class="skill-box">Conocimientos en SQL Server</div>
-                </div>
-                <div class="cell">
-                    <div class="skill-box">Conocimientos en Conexion de Redes</div>
-                </div>
-                <div class="cell">
-                    <div class="skill-box">Conocimientos en Evaluacion de <br>
-                                            Proyectos Informaticos
+                    <div class="skill-box"><q>Familiares que residen en el extranjero</q>
+                        <ul>
+                            <li>Personas peruanas viviendo fuera del país que necesitan coordinar servicios funerarios en Perú sin poder viajar.</li>
+                            <li>Buscan soluciones confiables, rápidas y con acompañamiento continuo.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="cell">
-                    <div class="skill-box">Conocimientos en HTML</div>
+                    <div class="skill-box"><q>Familias locales con poco tiempo o recursos para trámite</q>
+                        <ul>
+                            <li>
+                                Residentes de la provincia de Huaura y alrededores que prefieren delegar la organización del servicio a profesionales.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="cell">
-                    <div class="skill-box">Conocimientos en Infraestructura de Redes</div>
+                    <div class="skill-box"><q>Clientes que desean ceremonias personalizadas o conmemorativas</q>
+                        <ul>
+                            <li>
+                                Personas interesadas en rendir homenajes o realizar celebraciones de aniversario, misas o cumpleaños póstumos con un toque especial
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="cell">
+                    <div class="skill-box"><q>Empresas o asociaciones del extranjero con vínculos en Perú</q>
+                        <ul>
+                            <li>
+                                Organizaciones que buscan ofrecer un apoyo solidario a trabajadores o asociados ante una pérdida familiar.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h4 class="text-center"><i>Caracteristicas del Segmento</i></h4>
+            <div class="grid-x grix-margin-x small-up-2 medium-up-3">
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Ubicación geográfica</b><br>
+                        Huacho y provincia de Huaura
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Tipo de cliente</b><br>
+                        Familias que enfrentan un fallecimiento y necesitan atención inmediata.
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Nivel socioeconómico</b><br>
+                        Medio y medio-bajo.
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Comportamiento del cliente</b><br>
+                        Huacho y provincia de Huaura
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Preferencias culturales:</b><br>
+                        Servicios que integren elementos tradicionales o personalizados (banda, baile, cargadores).
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Motivación de compra</b><br>
+                        Necesidad urgente de resolver el sepelio con respeto, acompañamiento y cumplimiento.
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="habilidades">
-            <h2 class="text-center">Habilidades Tecnicas</h2>
+        <section id="canal" class="callout canal">
+            <h2 class="text-center">Canales</h2>
             <div class="grid-x grid-margin-x align-stretch">
-                <div class="cell small-12 medium-4">
-                    <div class="card text-center">
-                        <img src="php.jpg">
-                        <div class="card-section">
-                            <h4>PHP</h4>
-                            <progress value="60" max="100"></progress>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4><i class="fa-solid fa-address-book"></i> Atencion presencial</h4>
                         </div>
                     </div>
                 </div>
-                <div class="cell small-12 medium-4">
-                    <div class="card text-center">
-                        <img src="html.jpg">
-                        <div class="card-section">
-                            <h4>HTML</h4>
-                            <progress value="50" max="100"></progress>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4><i class="fa-brands fa-whatsapp"></i> Telefonia y Whatsapp</h4>
                         </div>
                     </div>
                 </div>
-                <div class="cell small-12 medium-4">
-                    <div class="card text-center">
-                        <img src="sql.jpg">
-                        <div class="card-section">
-                            <h4>SQL SERVER 2025</h4>
-                            <progress value="60" max="100"></progress>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4><i class="fa-brands fa-squarespace"></i> Pagina Web</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4><i class="fa-solid fa-share-nodes"></i> Redes Sociales</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="intereses" class="callout">
-            <h2 class="text-center">Intereses</h2>
-            <div class="text-center grid-x grid-margin-x small-up-2 medium-up-3">
+        <section id="relaciones" class="callout relaciones">
+            <h2 class="text-center">Relaciones con Clientes</h2>
+            <div class="grid-x grid-margin-x small-up-2 medium-up-4">
                 <div class="cell">
-                    <div class="skill-box">Capacitación en Auditorias</div>
-                    <p>Manejar controles de calidad, mejorar la seguridad y organización de la empresa.</p>
+                    <div class="skill-box">
+                        <b>Atencion a las familias</b><br>
+                        Cada familia es atendida por un solo asesor
+                    </div>
                 </div>
                 <div class="cell">
-                    <div class="skill-box">Capacitación en Area de Soporte Tecnico</div>
-                    <p>Conocer sobre testeos, pruebas a softwares y/o trabajadores tipo capacitarlos</p>
+                    <div class="skill-box">
+                        <b>Rol del asesor funerario</b><br>
+                        Punto unico de contacto con la familia y coordinador
+                    </div>
                 </div>
                 <div class="cell">
-                    <div class="skill-box">Capacitación en Sector Logistico</div>
-                    <p>Tener control en lo que entra y sale en el inventario, hacer reportes etc</p>
+                    <div class="skill-box">
+                        <b>Acompañamiento en tramites y servicio</b><br>
+                        Orientacion en tramites legales
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Beneficios de la atencion personalizada</b><br>
+                        Reduccion del estres y confusion de la famila
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Autoservicios en linea</b><br>
+                        Ofrecer una página web de paquetes funerarios
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Atencion rapida y 24/7</b><br>
+                        Atención rápida, con instalación de la capilla y traslado en un máximo de 2 a 3 horas
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Ventajas para familias</b><br>
+                        Las familias se benefician con rapidez, claridad en los precios y disponibilidad permanente
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">
+                        <b>Servicios automaticos</b><br>
+                        La funeraria enviaría avisos automáticos sobre el estado de los documentos
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="contacto">
-            <div class="grid-x align-center">
-                <div class="cell small-12 medium-8 large-6">
-                    <div class="callout">
-                        <h2 class="text-center">Informacion de Contacto</h2>
-                        <form>
-                            <label>Nombres<input type="text"></label>
-                            <label>Apellidos<input type="text"></label>
-                            <label>Cargo<input type="text"></label>
-                            <label>Consulta<textarea rows="5"></textarea></label>
-                            <div class="text-center">
-                                <button type="submit" class="button success">Enviar</button>
-                                <button type="reset" class="button alert">Borrar</button>
-                            </div>
-                        </form>
+        <section id="fuentes" class="callout fuentes">
+            <h2 class="text-center">Fuentes de Ingresos</h2>
+            <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+                <div class="cell">
+                    <div class="skill-box">Venta de activos</div>
+                    <ul>
+                        <li>Ataudes</li>
+                        <li>Urnas</li>
+                        <li>Arreglos florales</li>
+                    </ul>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">Cuota por uso</div>
+                    <ul>
+                        <li>Salas de velacion</li>
+                        <li>Traslados</li>
+                        <li>Cremacion</li>
+                    </ul>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">Concesion de licencias</div>
+                    <ul>
+                        <li>Licencias de software funerario</li>
+                        <li>Modelo de franquicia(a futuro)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                <div class="cell">
+                    <div class="skill-box">Gastos de carretaje</div>
+                    <ul>
+                        <li>Floristerias</li>
+                        <li>Musicos,bandas y homenajes</li>
+                    </ul>
+                </div>
+                <div class="cell">
+                    <div class="skill-box">Nuevas oportunidades</div>
+                    <ul>
+                        <li>Convenios con hospitales y clinicas</li>
+                        <li>Paquetes funerarios corporativos para empresas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="recursos" class="callout recursos">
+            <h2 class="text-center">Recursos clave</h2>
+            <div class="grid-x grid-margin-x align-stretch">
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4>Recursos Fisicos<br></h4>
+                            Instalaciones, equipos funerarios y tecnologia de transmision
+                        </div>
                     </div>
+                </div>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4>Recursos Intelectuales<br></h4>
+                            Reconocimiento en Huacho-Huaura y alianzas
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4>Recursos Humanos<br></h4>
+                            Asesores funerarios, pesonal capacitado y disponible 24/7
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-12 medium-6">
+                    <div class="card">
+                        <div class="card-section text-center">
+                            <h4>Recursos Economicos<br>
+                            </h4>
+                            Fondos para mantener y operar los servicios
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="asociaciones" class="callout asociaciones">
+            <h2 class="text-center">Asociaciones clave</h2>
+            <div class="grid-x grid-margin-x align-middle">
+                <div class="cell small-12 medium-2">
+                </div>
+                <div class="cell small-12 medium-4">
+                    <p>Las asociaciones clave permiten a la funeraria
+                        garantizar la continuidad del servicio,
+                        reducir costos operativos y 
+                        ampliar su oferta sin invertir en todo internamente
+                    </p>
+                    <p><b>Algunos proveedores estrategicos:</b></p>
+                    <ul>
+                        <li>Fabricante de ataudes y urnas</li>
+                        <li>Florerias</li>
+                        <li>Proveedores de lapidas y placas</li>
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-6 text-center">
+                    <img src="asoc.jpeg" class="asoc-img"/>
                 </div>
             </div>
         </section>
     </div>
-    <footer class="pie text-center">
-        <div>
-            <p>
-                <i><b>&copy Universidad Nacional: Jose Faustino Sanchez Carrión</b></i>
-                <br>Facultad Ingeniería Industrial, Sistemas e Informática<br>
-                Escuela Profesional Ingeniería Informática
-            </p>
-        </div>
-        <div>
-            <p>
-                <b>Estudiante</b>: Corimanya Osorio Luis Andre
-                <br>
-                <b>Docente</b>: Ing. Ronald Flores Flores
-            </p>
-        </div>
-        <div>
-            <p>
-                <b>Curso</b>: Desarrollo de Aplicaciones Web
-                <br>
-                <b>Ciclo</b>: IX
-            </p>
+    <footer class="pie">
+        <div class="grid-x grid-margin-x align-stretch">
+            <div class="cell small-12 medium-1">
+            </div>
+            <div class="cell small-12 medium-2">
+                <img src="FSP.jpg" class="pie-img"/>
+            </div>
+            <div class="cell small-12 medium-2">
+                <div class="pie-box">
+                    <p><i><b>&copy Funeraria San Pedro Huacho-Huaura</b></i><br>
+                            Más de 10 años de experiencia nos respaldan<br>
+                    </p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-2">
+                <div class="pie-box">
+                    <p><b>Estudiante</b>: Corimanya Osorio Luis Andre<br>
+                        <b>Gerente General</b>: Luis Ruben Osorio Rosales
+                    </p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-2">
+                <div class="pie-box">
+                    <p><b>Ubicacion</b>: "Francisco Vidal 730"., Huacho, Peru, 051<br>
+                        <b>Referencia</b>: Frente al hospital ESSALUD
+                    </p>
+                </div>
+            </div>
+            <div class="cell small-12 medium-3">
+            </div>
         </div>
     </footer>
 </body>

@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY*/
+body {
+    background: linear-gradient(to bottom, #0b1220, #111827);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Icono FACEBOOK*/
+.fb-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 25%; /* Hace el icono circular */
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.fb-icon:hover {
+    background-color: #0d62d0;
+}   
+
+/* ESPACIADO*/
+.grid-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* HEADER*/
+.top-bar {
+    background: #F2B246;
+    padding: 15px;
+}
+
+.top-bar ul {
+    background: #F2B246;
+    padding: 15px;
+}
+
+.top-bar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top-bar li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: backgroud 0.3s ease, background-color 0.3s ease
+}
+
+.top-bar strong {
+    color: #081018;
+    font-size: 1.2rem;
+}
+
+.top-bar a {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.top-bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* PRINCIPAL*/
+.principal {
+    padding: 70px 0;
+}
+
+.principal h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+}
+
+.principal p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* FOTO PERFIL*/
+.somos-img {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.somos-img:hover {
+    transform: scale(1.05);
+}
+
+/* TITULOS*/
+h2 {
+    color: #F2B246;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* CALLOUT*/
+.callout {
+    background: #06273D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* TARJETAS*/
+.card {
+    margin-top: 20px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    background: #ccccff;
+    transform: translateX(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-section h4 {
+    color: black;
+}
+
+.card-section p {
+    color: black;
+}
+
+/* SKILLS*/
+.skill-box {
+    background: cadetblue;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.skill-box:hover {
+    background: #ccccff;
+    color: #0033cc;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.asoc-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 5px solid black;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+/* FOOTER*/
+.pie {
+    margin-top: 40px;
+    padding: 25px;
+    background: #081018;
+    color: white;
+    border-top: 2px solid #29b6ff;
+}
+
+.pie h4 {
+    color: #29b6ff;
+}
+
+.pie-box {
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.pie-img{
+    width: 250;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.canal .grid-x,
+.propuesta .grid-x,
+.recursos .grid-x {
+    align-items: start;
+}
+
+.canal .card,
+.propuesta .card,
+.recursos .card {
+    height: auto;
+    min-height: unset;
+}
+
+.canal .card-section,
+.propuesta .card-section,
+.recursos .card-section {
+    justify-content: center;
+    padding: 18px 20px;
+}
+

@@ -1,0 +1,546 @@
+/*:root {
+    --neon: #00F5FF;
+    --violeta: #7B2FBE;
+    --oscuro: #0A0A0F;
+    --card-bg: #12121A;
+    --surface: #1A1A25;
+    --texto: #E0E0E0;
+    --verde-precio: #39FF14;
+    --rojo-desc: #FF4757;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: #0A0A0F;
+    color: #E0E0E0;
+}
+
+.grid-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* HEADER */
+.top-bar {
+    background: rgba(10, 10, 15, 0.95);
+    padding: 15px;
+}
+
+.top-bar ul {
+    background: rgba(10, 10, 15, 0.95);
+    padding: 15px;
+}
+
+.top-bar li a {
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: backgroud 0.3s ease, background-color 0.3s ease
+}
+
+.logo {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.3rem;
+    color: #00F5FF;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(0, 245, 255, 0.5);
+}
+
+.logo span {
+    color: #7B2FBE;
+}
+
+.top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-bar-left .contacto {
+    color: #aaa;
+    font-size: 0.85rem;
+}
+
+.top-bar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+.top-bar-right ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+}
+
+.top-bar-right ul li a:hover {
+    background: white;
+    color: #000000;
+}
+
+/* HERO */
+.principal {
+    background: linear-gradient(135deg, #0A0A0F 0%, #0D0D1A 40%, #130D2B 100%);
+    padding: 5rem 1rem 4rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(123, 47, 190, 0.3);
+}
+
+.grid-lines {
+    position: absolute;
+    inset: 0;
+    opacity: 0.04;
+    background-image: linear-gradient(#00F5FF 1px, transparent 1px), linear-gradient(90deg, #00F5FF 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+.principal h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: 3rem;
+    line-height: 1.2;
+    position: relative;
+}
+
+.principal h1 span {
+    color: #00F5FF;
+    text-shadow: 0 0 30px rgba(0, 245, 255, 0.6);
+}
+
+.principal .subtitulo {
+    color: #aaa;
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem;
+    position: relative;
+}
+
+.btn-explorar {
+    background: linear-gradient(135deg, #7B2FBE, #5a1d8a);
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.9rem;
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    box-shadow: 0 0 20px rgba(123, 47, 190, 0.4);
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.btn-explorar:hover {
+    box-shadow: 0 0 35px rgba(123, 47, 190, 0.7);
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.badge-instant {
+    background: #39FF14;
+    color: #000;
+    font-weight: 700;
+    padding: 0.2rem 0.7rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.hero-platforms {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.plat-icon {
+    background: #1A1A25;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #ccc;
+}
+
+.hero-game-preview {
+    background: var(--card-bg);
+    border: 1px solid rgba(0, 245, 255, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 245, 255, 0.1), inset 0 0 40px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.hero-game-preview .game-art {
+    font-size: 6rem;
+}
+
+.hero-game-preview h3 {
+    font-family: 'Orbitron', monospace;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0.5rem 0 0.3rem;
+}
+
+.precio-hero-old {
+    color: #666;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+}
+
+.precio-hero-new {
+    color: var(--verde-precio);
+    font-family: 'Orbitron', monospace;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.4);
+}
+
+.descuento-badge {
+    background: var(--rojo-desc);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+/* CALLOUT */
+.callout {
+    border: none !important;
+    padding: 3rem 1rem;
+}
+
+.callout h2 {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+/* JUEGOS */
+.juegos-sec {
+    background: #404047;
+    border-radius: 15px;
+}
+
+.juegos-sec h2 {
+    color: #fff;
+}
+
+.juegos-sec h2 span {
+    color: #00F5FF;
+}
+
+.card-juego {
+    background: #12121A;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.25s;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-juego:hover {
+    border-color: rgba(0, 245, 255, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 245, 255, 0.1);
+}
+
+.card-juego .portada {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    position: relative;
+}
+
+.card-juego .portada .platform-tag {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ccc;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+}
+
+.card-juego .descuento-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.card-juego .info {
+    padding: 0.9rem;
+}
+
+.card-juego h4 {
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 0 0.3rem;
+}
+
+.card-juego .genero {
+    color: #777;
+    font-size: 0.78rem;
+    margin-bottom: 0.7rem;
+}
+
+.precio-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.precio-old {
+    color: #555;
+    text-decoration: line-through;
+    font-size: 0.82rem;
+}
+
+.precio-new {
+    color: #39FF14;
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+}
+
+.btn-comprar {
+    background: #7B2FBE;
+    color: #fff;
+    border: none;
+    padding: 0.45rem 1rem;
+    border-radius: 4px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    width: 100%;
+    margin-top: 0.7rem;
+    transition: background 0.2s;
+}
+
+.btn-comprar:hover {
+    background: white;
+    color: black;
+}
+
+/* PROPUESTA DE VALOR */
+.propuesta {
+    background: #404047;
+    border-radius: 15px;
+}
+
+.propuesta h2 {
+    color: #00F5FF;
+}
+
+.valor-card {
+    background: #12121A;
+    border: 1px solid rgba(0, 245, 255, 0.15);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.valor-card .icono {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.valor-card h4 {
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.valor-card p {
+    color: #888;
+    font-size: 0.88rem;
+    line-height: 1.6;
+}
+
+/* PLATAFORMAS */
+.plataformas {
+    background: #404047;
+    border-radius: 15px;
+}
+
+.plataformas h2 {
+    color: #00F5FF;
+    text-align: center;
+}
+
+.plat-card {
+    background: #1A1A25;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.plat-card:hover {
+    border-color: #7B2FBE;
+    background: rgba(123, 47, 190, 0.1);
+}
+
+.plat-card .plat-icono {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.plat-card h4 {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.plat-card p {
+    color: #666;
+    font-size: 0.82rem;
+}
+
+/* COMO FUNCIONA */
+.como {
+    background: #404047;
+    border-radius: 15px;
+}
+
+.como h2 {
+    color: #00F5FF;
+    text-align: center;
+}
+
+.paso {
+    text-align: center;
+    padding: 1rem;
+}
+
+.paso .paso-num {
+    width: 52px;
+    height: 52px;
+    background: transparent;
+    border: 2px solid #00F5FF;
+    color: #7b74b9;
+    border-radius: 50%;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    box-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
+}
+
+.paso h4 {
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.88rem;
+    margin-bottom: 0.4rem;
+}
+
+.paso p {
+    color: #888;
+    font-size: 0.88rem;
+}
+
+/* CTA */
+.cta-sec {
+    background: linear-gradient(135deg, rgba(123, 47, 190, 0.3), rgba(0, 245, 255, 0.05));
+    border-top: 1px solid rgba(123, 47, 190, 0.4);
+    border-bottom: 1px solid rgba(123, 47, 190, 0.4);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.cta-sec h2 {
+    font-family: 'Orbitron', monospace;
+    color: #fff;
+}
+
+.cta-sec p {
+    color: #aaa;
+    margin: 0.8rem 0 1.5rem;
+}
+
+.btn-discord {
+    background: #5865F2;
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.85rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+.btn-wsp2 {
+    background: #25D366;
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.85rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+/* FOOTER */
+footer {
+    background: #060608;
+    color: #555;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+footer .marca {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.3rem;
+    color: #00F5FF;
+    text-shadow: 0 0 15px rgba(0, 245, 255, 0.3);
+}
+
+footer p {
+    font-size: 0.82rem;
+    line-height: 1.7;
+}
+
+footer a {
+    color: #7B2FBE;
+    text-decoration: none;
+}
